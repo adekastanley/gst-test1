@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+li,
+a {
+	list-style-type: none;
+	text-decoration: none;
+}
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	/* background-color: black; */
+	height: 10vh;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	padding-right: 4rem;
+}
+
+ul {
+	display: flex;
+	width: auto;
+	/* flex-direction: row; */
+	background-color: red;
+}
+li {
+	margin: 0 1rem;
+	font-size: 20px;
+}
+.one {
+	background-color: yellow;
+}
+.two {
+	background-color: green;
+}
+.three {
+	background-color: red;
+}
